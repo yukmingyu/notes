@@ -2,5 +2,5 @@
 
 # 小钰子帝国
 
-[GitHub](https://github.com/yukmingyu/notes)	[开始阅读]([https://yukmingyu.github.io/notes/#/dos/Openvpn配置.md)
+[GitHub](https://github.com/yukmingyu/notes)	[开始阅读](https://yukmingyu.github.io/notes/#/dos/Openvpn配置.md)
 
