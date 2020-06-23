@@ -2,5 +2,5 @@
 
 # 小钰子帝国
 
-[GitHub](https://github.com/yukmingyu/notes)	[开始阅读](#Openvpn配置)
+[GitHub](https://github.com/yukmingyu/notes)
 
