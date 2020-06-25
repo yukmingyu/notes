@@ -8,4 +8,5 @@
 - [SpringBoot支持AJAX跨域请求](https://yukmingyu.github.io/notes/#/dos/SpringBoot支持AJAX跨域请求.md)
 - [GitHub和Wiki图片无法加载的PAC规则处理](https://yukmingyu.github.io/notes/#/dos/GitHub和Wiki图片无法加载的PAC规则处理.md)
 - [MySQL-常见的三种存储引擎](https://yukmingyu.github.io/notes/#/dos/MySQL-常见的三种存储引擎.md)
+- [一起来学SpringCloud之-注册中心(EurekaConsul)](https://yukmingyu.github.io/notes/#/dos/一起来学SpringCloud之-注册中心(EurekaConsul).md)
 
