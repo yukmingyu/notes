@@ -1,3 +1,5 @@
+# 在Windows下配置Redis(不含集群)
+
 ### 简单介绍
 
 Redis是一款开源的、高性能的键 - 值存储（Key - Value store）。和 Memcached 类似，Redis 常被称作是一款 Key - Value 内存存储系统（或内存数据库）。
