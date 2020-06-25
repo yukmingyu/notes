@@ -2,4 +2,5 @@
 - [在Windows下配置Redis集群](https://yukmingyu.github.io/notes/#/dos/在Windows下配置Redis集群.md)
 - [在Windows下配置Redis(不含集群)](https://yukmingyu.github.io/notes/#/dos/在Windows下配置Redis(不含集群).md)
 - [在Windows下配置多个Redis(简化配置)](https://yukmingyu.github.io/notes/#/dos/在Windows下配置多个Redis(简化配置).md)
+- [V2rayN教学](https://yukmingyu.github.io/notes/#/dos/V2rayN教学.md)
 

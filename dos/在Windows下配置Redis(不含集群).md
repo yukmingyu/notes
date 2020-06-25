@@ -150,7 +150,7 @@ config set "maxmemory" "300mb"
 
 > *说明：*
 >
-> **1. 过期集合：如果对 key 使用 `expire` 指令指定了过期时间，那么，此 key 将会被添加到 “过期集合” 中。*
+> *1. 过期集合：如果对 key 使用 `expire` 指令指定了过期时间，那么，此 key 将会被添加到 “过期集合” 中。*
 >
 > *2. LRU：Least Recently Used，近期最少使用，[详见百科](http://baike.baidu.com/item/LRU)*
 >
