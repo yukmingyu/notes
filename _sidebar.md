@@ -1,1 +1,1 @@
-- [**GitHub 代理设置**](https://yukmingyu.github.io/notes/#/dos/GitHub 代理设置.md)
+- [GitHub代理设置](https://yukmingyu.github.io/notes/#/dos/GitHub代理设置.md)
