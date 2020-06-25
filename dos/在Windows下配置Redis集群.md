@@ -26,19 +26,19 @@
 
 ***在安装 Redis 的时候\***，*下面这个界面最好选上，方便随时执行 Redis 的相关命令。*
 
-![img](https:////upload-images.jianshu.io/upload_images/3116004-7a72e65689b0e4b9.png?imageMogr2/auto-orient/strip|imageView2/2/w/499/format/webp)
+![image-20200625190841702](在Windows下配置Redis集群.assets/image-20200625190841702.png)
 
 ***在安装 RubyInstaller 的时候\***，*下面这个界面最好全选。可安装相应的支持环境，将 Ruby 的命令添加到系统的执行路径里面去（方便随时执行 gem），还有就是关联相应的 Ruby 后缀文件。*
 
-![img](https:////upload-images.jianshu.io/upload_images/3116004-d8f61e01ee5647ca.png?imageMogr2/auto-orient/strip|imageView2/2/w/504/format/webp)
+![image-20200625190914176](在Windows下配置Redis集群.assets/image-20200625190914176.png)
 
 安装好后的路径如下：
 
-![img](https:////upload-images.jianshu.io/upload_images/3116004-b9010e6d6583f309.png?imageMogr2/auto-orient/strip|imageView2/2/w/285/format/webp)
+![image-20200625190931334](在Windows下配置Redis集群.assets/image-20200625190931334.png)
 
 Redis 安装路径
 
-![img](https:////upload-images.jianshu.io/upload_images/3116004-5a0e134ea273af02.png?imageMogr2/auto-orient/strip|imageView2/2/w/229/format/webp)
+![image-20200625190943286](在Windows下配置Redis集群.assets/image-20200625190943286.png)
 
 Ruby 安装路径
 
@@ -46,7 +46,7 @@ Ruby 安装路径
 
 在 Redis 的安装目录，新建一个 cluster 的文件夹，里面新建 6 个子文件夹，以端口为名，如下图所示：
 
-![img](https:////upload-images.jianshu.io/upload_images/3116004-22fe6e8596fa86d1.png?imageMogr2/auto-orient/strip|imageView2/2/w/440/format/webp)
+![image-20200625190959554](在Windows下配置Redis集群.assets/image-20200625190959554.png)
 
 Redis 集群配置文件夹
 
@@ -54,7 +54,7 @@ Redis 集群配置文件夹
 
 接下来，在每个文件夹内，新建一个后缀名为 conf 的配置文件：
 
-![img](https:////upload-images.jianshu.io/upload_images/3116004-9beb3c9c44f87d54.png?imageMogr2/auto-orient/strip|imageView2/2/w/368/format/webp)
+![image-20200625191012466](在Windows下配置Redis集群.assets/image-20200625191012466.png)
 
 配置文件路径
 
@@ -80,7 +80,7 @@ cluster-require-full-coverage yes
 
 新建完毕的目录结构，如下图所示：
 
-![img](https:////upload-images.jianshu.io/upload_images/3116004-9ba27e2a535d62be.png?imageMogr2/auto-orient/strip|imageView2/2/w/281/format/webp)
+![image-20200625191022611](在Windows下配置Redis集群.assets/image-20200625191022611.png)
 
 
 
@@ -108,13 +108,13 @@ redis-server --service-uninstall --service-name redis7100
 
 看到下面这界面，第一个服务就安装成功了：
 
-![img](https:////upload-images.jianshu.io/upload_images/3116004-7440fbd26ae74cfe.png?imageMogr2/auto-orient/strip|imageView2/2/w/649/format/webp)
+![image-20200625191035594](在Windows下配置Redis集群.assets/image-20200625191035594.png)
 
 redis7100 安装成功
 
 安装成功之后，打开系统的服务（运行 - services.msc），可以看到安装了 redis7100 这个服务：
 
-![img](https:////upload-images.jianshu.io/upload_images/3116004-a63d7fc15eb1e462.png?imageMogr2/auto-orient/strip|imageView2/2/w/365/format/webp)
+![image-20200625191046093](在Windows下配置Redis集群.assets/image-20200625191046093.png)
 
 接下来，就启动该服务，输入如下启动命令（也可以直接在服务里面，右键，启动它）：
 
@@ -128,7 +128,7 @@ redis-server --service-stop --service-name redis7100
 
 至此，Redis7100 就安装成功并且启动了，如下图所示：
 
-![img](https:////upload-images.jianshu.io/upload_images/3116004-fe971994009b62d5.png?imageMogr2/auto-orient/strip|imageView2/2/w/648/format/webp)
+![image-20200625191055153](在Windows下配置Redis集群.assets/image-20200625191055153.png)
 
 Redis7100 安装并启动成功
 
@@ -136,11 +136,11 @@ Redis7100 安装并启动成功
 
 全部完成后，在系统的服务里面，可以看到下图的内容：
 
-![img](https:////upload-images.jianshu.io/upload_images/3116004-cc11b31d3d35ec58.png?imageMogr2/auto-orient/strip|imageView2/2/w/363/format/webp)
+![image-20200625191104825](在Windows下配置Redis集群.assets/image-20200625191104825.png)
 
 同时，在 Redis 的安装目录内，会出现多个文件，如下所示：
 
-![img](https:////upload-images.jianshu.io/upload_images/3116004-feca0b3872870998.png?imageMogr2/auto-orient/strip|imageView2/2/w/440/format/webp)
+![image-20200625191120425](在Windows下配置Redis集群.assets/image-20200625191120425.png)
 
 至此，6 个 Redis 服务已经全部安装并且启动完毕。
 
@@ -154,7 +154,7 @@ gem install redis
 
 执行完后，回车（此时，耐心等一下，要联网下载组件），直到看到以下内容：
 
-![img](https:////upload-images.jianshu.io/upload_images/3116004-164e8ab75039e0e8.png?imageMogr2/auto-orient/strip|imageView2/2/w/452/format/webp)
+![image-20200625191132298](在Windows下配置Redis集群.assets/image-20200625191132298.png)
 
 gem 安装结果
 
@@ -182,13 +182,13 @@ redis-trib.rb create --replicas 1 127.0.0.1:7100 127.0.0.1:7200 127.0.0.1:7300 1
 
 输入后回车，会看到如下提示：
 
-![img](https:////upload-images.jianshu.io/upload_images/3116004-d2c7fc2236889398.png?imageMogr2/auto-orient/strip|imageView2/2/w/668/format/webp)
+![image-20200625191144797](在Windows下配置Redis集群.assets/image-20200625191144797.png)
 
 主（Master）- 从（Slave）对应关系
 
 输入 yes 回车后，会自动配置好主从关系，如下图所示：
 
-![img](https:////upload-images.jianshu.io/upload_images/3116004-6bc2cd6f039ceb80.png?imageMogr2/auto-orient/strip|imageView2/2/w/509/format/webp)
+![image-20200625191158762](在Windows下配置Redis集群.assets/image-20200625191158762.png)
 
 集群配置完毕
 
@@ -207,7 +207,7 @@ redis-trib.rb create --replicas 1 127.0.0.1:7100 127.0.0.1:7200 127.0.0.1:7300 1
 redis-cli -c -h 127.0.0.1 -p 7100 cluster nodes
 ```
 
-![img](https:////upload-images.jianshu.io/upload_images/3116004-cfe0a4d996b172a9.png?imageMogr2/auto-orient/strip|imageView2/2/w/648/format/webp)
+![image-20200625191208671](在Windows下配置Redis集群.assets/image-20200625191208671.png)
 
 集群关系
 
@@ -223,13 +223,13 @@ redis-cli -c -p 7200 -h 127.0.0.1
 quit
 ```
 
-![img](https:////upload-images.jianshu.io/upload_images/3116004-85634269d98a10f9.png?imageMogr2/auto-orient/strip|imageView2/2/w/473/format/webp)
+![image-20200625191218065](在Windows下配置Redis集群.assets/image-20200625191218065.png)
 
 登录成功界面
 
 登录之后，可以进行每个节点的操作，如果只查看集群的信息，输入 `cluster info`，则可以看到：
 
-![img](https:////upload-images.jianshu.io/upload_images/3116004-e93bdc13c3d2823e.png?imageMogr2/auto-orient/strip|imageView2/2/w/308/format/webp)
+![image-20200625191232385](在Windows下配置Redis集群.assets/image-20200625191232385.png)
 
 cluster info
 
