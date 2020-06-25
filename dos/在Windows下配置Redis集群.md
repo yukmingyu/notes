@@ -290,5 +290,5 @@ Do you want to proceed with the proposed reshard plan (yes/no)? yes   // 输入 
 
 *待转移完后，再执行上面删除节点的命令。*
 
-> - 如需配置 Redis（不含集群），[请看这里](https://yukmingyu.github.io/notes/#/dos/在 Windows 下配置 Redis(不含集群).md)
+> - 如需配置 Redis（不含集群），[请看这里](https://yukmingyu.github.io/notes/#/dos/在Windows下配置Redis(不含集群).md)
 
