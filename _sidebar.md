@@ -6,4 +6,5 @@
 - [SpringBoot--Swagger2配置(解决404报错)](https://yukmingyu.github.io/notes/#/dos/SpringBoot--Swagger2配置(解决404报错))
 - [HiDPI是什么以及黑苹果如何开启HiDPI](https://yukmingyu.github.io/notes/#/dos/HiDPI是什么以及黑苹果如何开启HiDPI.md)
 - [SpringBoot支持AJAX跨域请求](https://yukmingyu.github.io/notes/#/dos/SpringBoot支持AJAX跨域请求.md)
+- [GitHub和Wiki图片无法加载的PAC规则处理](https://yukmingyu.github.io/notes/#/dos/GitHub和Wiki图片无法加载的PAC规则处理.md)
 
