@@ -2,8 +2,8 @@
 
 ### 这是一个记录死瘦宅的-----Java经验的文档
 
-- 在线阅读地址：
-- GitHub：
+- 在线阅读地址：https://yukmingyu.github.io/notes/
+- GitHub：https://github.com/yukmingyu/notes
 
 ### 介绍
 

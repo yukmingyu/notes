@@ -1,1 +1,1 @@
-- [**Openvpn配置**](https://yukmingyu.github.io/notes/#/dos/Openvpn配置.md)
+- [**GitHub 代理设置**](https://yukmingyu.github.io/notes/#/dos/GitHub 代理设置.md)
