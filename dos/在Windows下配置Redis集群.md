@@ -88,7 +88,7 @@ cluster-require-full-coverage yes
 
 6 个配置文件的目录结构
 
-*可将各配置文件中的相同配置项，提取到同一个文件中，形成全局配置，[详细方法看这里](https://yukmingyu.github.io/notes/#/dos/在 Windows下配置多个Redis(简化配置).md)。*
+*可将各配置文件中的相同配置项，提取到同一个文件中，形成全局配置，[详细方法看这里](https://yukmingyu.github.io/notes/#/dos/在Windows下配置多个Redis(简化配置).md)。*
 
 > **第三步** 打开命令行（运行 - cmd 即可）。
 

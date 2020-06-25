@@ -6,14 +6,14 @@ Redis是一款开源的、高性能的键 - 值存储（Key - Value store）。�
 
 同时，由于它支持丰富的数据结构，又被称为一种数据结构服务器（Data Structure Server）。
 
-但是，**Redis 官方并不支持 Windows**，[微软开源团队](https://link.jianshu.com?t=https://github.com/MSOpenTech) 将其移植到了 Windows 中。
+但是，**Redis 官方并不支持 Windows**，[微软开源团队](https://github.com/MSOpenTech) 将其移植到了 Windows 中。
 
 *在实际生产环境中，还是建议将 Redis 部署在 CentOS 中来进行，毕竟 Redis 全部是通过 API 进行操作，跨平台访问是天生的。*
 
 > - 配置环境：Windows 7 Pro x64
 
-- [Redis 官网](https://link.jianshu.com?t=https://redis.io/)
-- [Redis Windows 版](https://link.jianshu.com?t=https://github.com/MSOpenTech/redis/releases)
+- [Redis 官网](https://redis.io/)
+- [Redis Windows 版](https://github.com/MSOpenTech/redis/releases)
 
 ### Redis 安装
 
@@ -149,11 +149,16 @@ config set "maxmemory" "300mb"
 - **noeviction：**不做任何干扰操作，直接返回 OOM 异常。
 
 > *说明：*
->  *1. 过期集合：如果对 key 使用 `expire` 指令指定了过期时间，那么，此 key 将会被添加到 “过期集合” 中。*
->  *2. LRU：Least Recently Used，近期最少使用，[详见百科](https://link.jianshu.com?t=http://baike.baidu.com/item/LRU)*
->  *3. TTL：Time To Live，最小存活时间，[详见百科](https://link.jianshu.com?t=http://baike.baidu.com/item/TTL/130248)*
->  *4. OOM：Out Of Memory，Killer 会干掉 Redis 进程，俗称：死机。*
->  *5. [以上全部内容的官方说明（英文）](https://link.jianshu.com?t=https://redis.io/topics/lru-cache)*
+>
+> **1. 过期集合：如果对 key 使用 `expire` 指令指定了过期时间，那么，此 key 将会被添加到 “过期集合” 中。*
+>
+> *2. LRU：Least Recently Used，近期最少使用，[详见百科](http://baike.baidu.com/item/LRU)*
+>
+> *3. TTL：Time To Live，最小存活时间，[详见百科](http://baike.baidu.com/item/TTL/130248)*
+>
+> *4. OOM：Out Of Memory，Killer 会干掉 Redis 进程，俗称：死机。*
+>
+> *5. [以上全部内容的官方说明（英文）](https://redis.io/topics/lru-cache)*
 
 至此，在 Windows 下配置 Redis 就差不多结束了。
 
