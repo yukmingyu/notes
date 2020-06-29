@@ -40,9 +40,7 @@ then
 
 
 
-
-
-![image-20200625235520830](V2rayN教学.assets/image-20200625235520830.png)
+![image-20200630054650775](V2rayN教学.assets/image-20200630054650775.png)
 
 简单的讲，PAC就是一种配置，它能让你的浏览器智能判断哪些网站走代理，哪些不需要走代理。
 
@@ -57,9 +55,9 @@ then
 
 这样的意思是：
 
-***dogcloud.xyz 和 ggjs.xyz 是不走代理模式，***
+***yukmingyu.xyz 和 yukmingyuabc.xyz 是不走代理模式，***
 
-***abc.com 和 def.com 是走代理模式。***
+***abcdefg.com 和 defghij.com 是走代理模式。***
 
 
 
