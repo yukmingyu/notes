@@ -103,7 +103,4 @@
 
 ### 原理图
 
-
-
-<img src="Dubbo&amp;Zookeeper配置方式.assets/image-20200630042114022.png" alt="image-20200630042114022" style="zoom:50%;" />
-
+![image-20200630054246524](Dubbo&Zookeeper配置方式.assets/image-20200630054246524.png)
