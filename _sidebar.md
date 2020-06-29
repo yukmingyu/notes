@@ -10,4 +10,5 @@
 - [MySQL-常见的三种存储引擎](https://yukmingyu.github.io/notes/#/dos/MySQL-常见的三种存储引擎.md)
 - [Dubbo&Zookeeper配置方式](https://yukmingyu.github.io/notes/#/dos/Dubbo&Zookeeper配置方式.md)
 - [解决Maven工程install的警告](https://yukmingyu.github.io/notes/#/dos/解决Maven工程install的警告.md)
+- [PageHelper警告](https://yukmingyu.github.io/notes/#/dos/PageHelper警告.md)
 
