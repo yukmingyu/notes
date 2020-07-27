@@ -24,9 +24,9 @@
 
 > **第一步** 安装下载的 Redis 和 RubyInstaller。
 
-https://rubyinstaller.org/downloads/
+https://rubyinstaller.org/downloads/		----Ruby
 
-https://github.com/microsoftarchive/redis/releases
+https://github.com/microsoftarchive/redis/releases		----Windows桌面版Redis
 
 *以下以默认安装路径为例。*
 
