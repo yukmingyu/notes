@@ -23,6 +23,8 @@
 7. 创建 Redis 集群完毕
 
 > **第一步** 安装下载的 Redis 和 RubyInstaller。
+https://rubyinstaller.org/downloads/
+https://github.com/microsoftarchive/redis/releases
 
 *以下以默认安装路径为例。*
 
