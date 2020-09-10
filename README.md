@@ -1,17 +1,17 @@
-# Welcome to my empire
+### 這是一個記錄人生經驗的文檔
 
-### 这是一个记录死瘦宅的-----Java经验的文档
-
-- 在线阅读地址：https://yukmingyu.github.io/notes/
+- 在綫閲讀地址：https://yukmingyu.github.io/notes/
 - GitHub：https://github.com/yukmingyu/notes
 
-### 介绍
-
-一个死瘦宅拼命生存中。。。
+### 介紹
 
 搵食啫，犯法呀，我想㗎？
 
-别人笑我太疯癫，我笑他人看不穿，本人的小小Java疯癫经验，望施主莫笑，莫怪。
+蝙蝠俠曾經講過：当黎明來臨之前係最撚黑暗。
+
+同樣，胜利來臨之前係最撚絕望，成功來臨之前係最撚渺望。
+
+但係！黎明即將會來臨！Fight for freedom！
 
 
 
