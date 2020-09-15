@@ -382,9 +382,9 @@ Executors的4个功能线程池虽然方便，但现在已经不建议使用了�
 
 其实Executors的4个功能线程有如下弊端：
 
-- `FixedThreadPool`和`SingleThreadExecutor`：主要问题是堆积的请求处理队列均采用`LinkedBlockingQueue`，可能会耗费非常大的内存，甚至OOM。
+- `FixedThreadPool`和`SingleThreadExecutor`：主要问题是堆积的请求处理队列均采用`LinkedBlockingQueue`，可能会耗费非常大的内存，甚至OOM(内存泄露或内存溢出)。
 
-- `CachedThreadPool`和`ScheduledThreadPool`：主要问题是线程数最大数是`Integer.MAX_VALUE`，可能会创建数量非常多的线程，甚至OOM。
+- `CachedThreadPool`和`ScheduledThreadPool`：主要问题是线程数最大数是`Integer.MAX_VALUE`，可能会创建数量非常多的线程，甚至OOM(内存泄露或内存溢出)。
 
 
 

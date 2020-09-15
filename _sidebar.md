@@ -14,5 +14,5 @@
 - [MyBatis.Generator配上最新的MySQL8.0的注意事项](https://yukmingyu.github.io/notes/#/dos/MyBatis.Generator配上最新的MySQL8.0的注意事项.md)
 - [单例模式的八种写法比较](https://yukmingyu.github.io/notes/#/dos/单例模式的八种写法比较.md)
 - [封装JDBC工具类](https://yukmingyu.github.io/notes/#/dos/封装JDBC工具类.md)
-- [Java多线程：彻底搞懂线程池](https://yukmingyu.github.io/notes/#/dos/Java多线程：彻底搞懂线程池.md)
+- [Java多线程：彻底搞懂线程池](/Java多线程：彻底搞懂线程池.md)
 
