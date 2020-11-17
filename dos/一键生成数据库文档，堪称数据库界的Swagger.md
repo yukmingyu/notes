@@ -18,7 +18,7 @@
 
 #### 1、pom文件
 
-引入`screw`核心包，`HikariCP`数据库连接池，`HikariCP`号称性能最出色的数据库连接池。(其实阿里的druid也行)
+引入`screw`核心包，`HikariCP`数据库连接池，`HikariCP`号称性能最出色的数据库连接池。(其实`alibaba`的`druid`也行)
 
 ```java
 <!-- screw核心 -->
